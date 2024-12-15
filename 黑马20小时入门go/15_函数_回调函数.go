@@ -10,7 +10,7 @@ func mult(a, b int) (result int) {
 }
 
 /*
-	回调函数：函数中有一个参数类型是函数类型的就是回调函数
+回调函数：函数中有一个参数类型是函数类型的就是回调函数
 */
 func Calc(a, b int, fTest funcType) (result int) {
 	fmt.Println("计算中...")
